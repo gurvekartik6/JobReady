@@ -1,0 +1,154 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    namespace 'com.jobread.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.jobread.app"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+        coreLibraryDesugaringEnabled true
+    }
+
+    buildFeatures {
+        viewBinding true
+        buildConfig true
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+
+    packaging {
+        resources {
+            excludes += [
+                'META-INF/DEPENDENCIES',
+                'META-INF/LICENSE',
+                'META-INF/LICENSE.txt',
+                'META-INF/NOTICE',
+                'META-INF/NOTICE.txt',
+                'META-INF/ASL2.0',
+                'META-INF/*.kotlin_module',
+                'META-INF/INDEX.LIST'
+            ]
+        }
+    }
+
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    // Desugaring for Java 8+ APIs on older Android
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.4'
+
+    // AndroidX Core
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core:1.12.0'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.fragment:fragment:1.6.2'
+    implementation 'androidx.activity:activity:1.8.2'
+
+    // Lifecycle - ViewModel + LiveData (Java)
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.7.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata:2.7.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime:2.7.0'
+    implementation 'androidx.lifecycle:lifecycle-common-java8:2.7.0'
+    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.7.0'
+
+    // Room Database (Java) with RxJava3
+    implementation 'androidx.room:room-runtime:2.6.1'
+    implementation 'androidx.room:room-rxjava3:2.6.1'
+    annotationProcessor 'androidx.room:room-compiler:2.6.1'
+
+    // Dagger 2 (not Hilt)
+    implementation 'com.google.dagger:dagger:2.50'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.50'
+
+    // Retrofit + OkHttp + Gson
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava3:2.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.12.0'
+
+    // RxJava 3
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.8'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.2'
+
+    // WorkManager (Java) with RxJava3
+    implementation 'androidx.work:work-runtime:2.9.0'
+    implementation 'androidx.work:work-rxjava3:2.9.0'
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+
+    // MPAndroidChart (from JitPack)
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    // Lottie
+    implementation 'com.airbnb.android:lottie:6.3.0'
+
+    // Firebase BOM + Auth
+    implementation platform('com.google.firebase:firebase-bom:32.7.4')
+    implementation 'com.google.firebase:firebase-auth'
+
+    // EncryptedSharedPreferences (stable version)
+    implementation 'androidx.security:security-crypto:1.0.0'
+
+    // Google Drive API
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
+    implementation('com.google.api-client:google-api-client-android:1.35.2') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+    implementation('com.google.apis:google-api-services-drive:v3-rev20220815-2.0.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+
+    // Gson
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    // Unit Testing
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.mockito:mockito-core:5.8.0'
+    testImplementation 'io.reactivex.rxjava3:rxjava:3.1.8'
+    testImplementation 'androidx.arch.core:core-testing:2.2.0'
+    testImplementation 'org.robolectric:robolectric:4.11.1'
+
+    // Instrumentation Tests
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.5.1'
+    androidTestImplementation 'androidx.test:rules:1.5.0'
+    androidTestImplementation 'androidx.room:room-testing:2.6.1'
+    androidTestImplementation 'org.mockito:mockito-android:5.8.0'
+}

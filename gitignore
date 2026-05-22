@@ -1,0 +1,95 @@
+# =============================================
+# JobRead Android Project - .gitignore
+# =============================================
+
+# ---- Gradle ----
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# ---- Local Android SDK / NDK ----
+local.properties
+*.iml
+
+# ---- Android Studio / IntelliJ IDEA ----
+.idea/
+*.iws
+*.ipr
+out/
+captures/
+.navigation/
+*.orig
+.externalNativeBuild/
+.cxx/
+
+# ---- Firebase (CRITICAL - never commit real keys) ----
+google-services.json
+
+# ---- Keystore / Signing ----
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+release.keystore
+debug.keystore
+
+# ---- Generated / Compiled ----
+*.class
+*.dex
+*.ap_
+*.apk
+*.aab
+*.aar
+gen/
+bin/
+obj/
+
+# ---- OS Files ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---- Environment / Secrets ----
+.env
+.env.local
+secrets.properties
+api_keys.properties
+
+# ---- ProGuard ----
+proguard/
+!proguard-rules.pro
+
+# ---- Test Results ----
+test-results/
+*.test-results
+lint/
+lint-results*
+
+# ---- Room Database (local dev DB) ----
+*.db
+*.db-shm
+*.db-wal
+
+# ---- Logs ----
+*.log
+crash-logs/
+
+# ---- Coverage Reports ----
+jacoco/
+*.exec
+coverage/
+
+# ---- Node (if any tooling used) ----
+node_modules/
+
+# ---- Encrypted Prefs (generated at runtime) ----
+shared_prefs/
