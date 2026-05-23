@@ -1,4 +1,4 @@
-# JobRead — Android Job Application Tracker
+# JobReady — Android Job Application Tracker
 
 A production-ready Android application (Java 17) for tracking job applications with offline-first support, notifications, CSV import/export, and a rich Material 3 UI.
 
@@ -29,7 +29,7 @@ A production-ready Android application (Java 17) for tracking job applications w
 
 ```
 app/src/main/java/com/jobread/app/
-├── JobReadApplication.java          # Application class, Dagger init
+├── JobReadyApplication.java          # Application class, Dagger init
 ├── activities/
 │   ├── SplashActivity.java          # Auto-login check, routing
 │   ├── AuthActivity.java            # Login / Register (Firebase)
@@ -86,7 +86,7 @@ app/src/main/java/com/jobread/app/
 ### 1. Firebase Setup
 
 1. Go to [Firebase Console](https://console.firebase.google.com/)
-2. Create a new project named **JobRead**
+2. Create a new project named **JobReady**
 3. Add Android app with package `com.jobread.app`
 4. Download `google-services.json`
 5. Replace `app/google-services.json` with your downloaded file
@@ -111,7 +111,7 @@ Replace the placeholder JSON files provided.
 ```bash
 # Clone the project
 git clone <your-repo-url>
-cd JobRead
+cd JobReady
 
 # Open in Android Studio (Hedgehog or newer)
 # File → Open → select JobRead directory
@@ -245,4 +245,4 @@ Room DAO ────────────── AppDatabase (SQLite)
 
 ## License
 
-MIT License — free to use for personal and commercial projects.
+MIT License — free to use for personal and commercial projects.Dont spam ever
