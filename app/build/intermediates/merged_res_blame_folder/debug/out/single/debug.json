@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\layout_activity_job_detail.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\layout\\activity_job_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "com.jobread.app-merged_res-50:/layout_fragment_job_list.xml.flat",
+        "source": "com.jobread.app-main-52:/layout/fragment_job_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\layout_activity_auth.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\layout\\activity_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\layout_fragment_job_list.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\layout\\fragment_job_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_status_badge_bg.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\status_badge_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\raw_empty_state.json.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\raw\\empty_state.json"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\menu_job_list_menu.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\menu\\job_list_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_dashboard.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\layout_activity_add_edit_job.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\layout\\activity_add_edit_job.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_import.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_import.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\raw_loading.json.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\raw\\loading.json"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_phone.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_briefcase.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_briefcase.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\layout_item_job.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\layout\\item_job.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_spinner_background.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\spinner_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_sort.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_sort.xml"
+    },
+    {
+        "merged": "com.jobread.app-merged_res-50:/layout_activity_main.xml.flat",
+        "source": "com.jobread.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_update.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_export.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_export.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-merged_res-50:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\gurve\\.gradle\\daemon\\8.2\\com.jobread.app-main-52:\\xml\\file_paths.xml"
+    }
+]

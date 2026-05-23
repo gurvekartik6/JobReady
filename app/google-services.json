@@ -1,26 +1,21 @@
 {
   "project_info": {
-    "project_number": "YOUR_PROJECT_NUMBER",
-    "project_id": "your-project-id",
-    "storage_bucket": "your-project-id.appspot.com"
+    "project_number": "414009487235",
+    "project_id": "jobready-491be",
+    "storage_bucket": "jobready-491be.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:YOUR_APP_ID",
+        "mobilesdk_app_id": "1:414009487235:android:20511796cff475c4f290b6",
         "android_client_info": {
           "package_name": "com.jobread.app"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "YOUR_WEB_CLIENT_ID.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "YOUR_API_KEY"
+          "current_key": "AIzaSyBsyaP5stVqd5wEgWT2x42m9o34d5xPLyw"
         }
       ],
       "services": {

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="error_dark">#CF6679</color>
+    <color name="on_error">#000000</color>
+    <color name="on_primary">#000000</color>
+    <color name="on_primary_container_dark">#EADDFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_surface_dark">#E6E1E5</color>
+    <color name="primary_container_dark">#4D004D</color>
+    <color name="primary_dark">#BB86FC</color>
+    <color name="secondary_dark">#03DAC6</color>
+    <color name="surface_dark">#121212</color>
+    <style name="Theme.JobRead" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container_dark</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container_dark</item>
+        <item name="colorSecondary">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorError">@color/error_dark</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/on_surface_dark</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.JobRead.Splash" parent="Theme.JobRead">
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+    </style>
+</resources>

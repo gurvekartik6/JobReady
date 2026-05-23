@@ -5,8 +5,8 @@ import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.work.ListenableWorker;
-import androidx.work.RxWorker;
 import androidx.work.WorkerParameters;
+import androidx.work.rxjava3.RxWorker;
 
 import com.jobread.app.database.AppDatabase;
 import com.jobread.app.database.dao.JobDao;
@@ -30,10 +30,10 @@ public class FollowUpNotificationWorker extends RxWorker {
 
     @NonNull
     @Override
-    public Single<ListenableWorker.Result> createWork() {
+    public Single<Result> createWork() {
         String userId = mPreferenceManager.getUserId();
         if (userId == null || !mPreferenceManager.areNotificationsEnabled()) {
-            return Single.just(ListenableWorker.Result.success());
+            return Single.just(Result.success());
         }
 
         return mJobDao.getStalePendingJobs(userId, DateUtils.daysAgo(7))
@@ -47,8 +47,8 @@ public class FollowUpNotificationWorker extends RxWorker {
                                 notification
                         );
                     }
-                    return ListenableWorker.Result.success();
+                    return Result.success();
                 })
-                .onErrorReturn(throwable -> ListenableWorker.Result.failure());
+                .onErrorReturn(throwable -> Result.failure());
     }
 }

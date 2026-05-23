@@ -46,7 +46,7 @@ public class JobEntity {
     private String mSalaryRange;
 
     @ColumnInfo(name = "is_archived")
-    private boolean mIsArchived;
+    private boolean mArchived;
 
     @ColumnInfo(name = "user_id")
     private String mUserId;
@@ -66,7 +66,7 @@ public class JobEntity {
         entity.mRole = role;
         entity.mDateApplied = dateApplied;
         entity.mStatus = status;
-        entity.mIsArchived = false;
+        entity.mArchived = false;
         entity.mUserId = userId;
         entity.mCreatedAt = new Date();
         entity.mUpdatedAt = new Date();
@@ -85,7 +85,7 @@ public class JobEntity {
         copy.mContactPhone = this.mContactPhone;
         copy.mContactEmail = this.mContactEmail;
         copy.mSalaryRange = this.mSalaryRange;
-        copy.mIsArchived = false;
+        copy.mArchived = false;
         copy.mUserId = this.mUserId;
         copy.mCreatedAt = new Date();
         copy.mUpdatedAt = new Date();
@@ -127,8 +127,8 @@ public class JobEntity {
     public String getSalaryRange() { return mSalaryRange; }
     public void setSalaryRange(String salaryRange) { this.mSalaryRange = salaryRange; }
 
-    public boolean isArchived() { return mIsArchived; }
-    public void setArchived(boolean archived) { this.mIsArchived = archived; }
+    public boolean isArchived() { return mArchived; }
+    public void setArchived(boolean archived) { this.mArchived = archived; }
 
     public String getUserId() { return mUserId; }
     public void setUserId(String userId) { this.mUserId = userId; }

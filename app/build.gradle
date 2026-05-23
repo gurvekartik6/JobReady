@@ -122,14 +122,16 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:32.7.4')
     implementation 'com.google.firebase:firebase-auth'
 
-    // EncryptedSharedPreferences (stable version)
-    implementation 'androidx.security:security-crypto:1.0.0'
+    // EncryptedSharedPreferences
+    implementation 'androidx.security:security-crypto:1.1.0'
 
     // Google Drive API
     implementation 'com.google.android.gms:play-services-auth:20.7.0'
     implementation('com.google.api-client:google-api-client-android:1.35.2') {
         exclude group: 'org.apache.httpcomponents'
     }
+    implementation 'com.google.http-client:google-http-client-android:1.35.0'
+    implementation 'com.google.http-client:google-http-client-gson:1.35.0'
     implementation('com.google.apis:google-api-services-drive:v3-rev20220815-2.0.0') {
         exclude group: 'org.apache.httpcomponents'
     }
